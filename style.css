@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    opacity: 0.6;
+    filter: brightness(75%);
+}
+.left-side{
+    width: 500px;
+    height: 810px;
+    position: static;
+    background-image: url(left-background.jpg);
+}
+.right-side{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: -5px;
+    border-radius: 15px;
+}
+.navbar h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.9;
+}
+.navbar ul{
+    display: flex;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    color: black;
+    font-weight: 300;
+}
+.navbar ul li a:hover{
+    color: rgb(255, 115, 0);
+}
+.partition{
+    margin-top: 18px;
+}
+.lang-select{
+    margin-top: 19px;
+}
+.lang-select a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.lang-select a:hover{
+    color: rgb(255, 115, 0);
+}
+
+.login-window{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 440px;
+    padding: 20px;
+    height: 100%;
+}
+.sign-in-up{
+    display: flex;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+.sign-in{
+    text-decoration: none;
+    margin: 3px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.sign-in::after{
+    content: '';
+    width: 90%;
+    height: 4px;
+    background: orangered;
+    display: block;
+    margin: auto;
+    transition: 500ms;
+}
+.sign-up{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    opacity: 0.9;
+    font-weight: 500;
+}
+.login-window form{
+    display: grid;
+    width: 340px;
+    height: 200px;
+}
+.login-window form input{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-window form button{
+    background-color: rgb(253, 70, 14);
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.help a{
+    text-decoration: none;
+    color:rgb(253, 70, 14);
+    font-size: 20px;
+}
+.help-right{
+    text-align: right;
+}
+.help a:hover{
+    color: rgb(131, 28, 2);
+}
+.login-window h3{
+    margin-top: 30px;
+    text-align: center;
+}
+.img-col{  
+    display: flex;
+    justify-content: center;
+}
+
+.img-col img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
